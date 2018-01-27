@@ -1,0 +1,43 @@
+.feed img, .feed h1, .feed p {
+  max-width: 700px;
+  margin: 20px;
+}
+
+.feed img {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.feed img + h1 {
+  margin-top: 5px;
+}
+
+.feed h1 + p {
+  margin-bottom: 15px;
+}
+
+.flex-container {
+  /* position: ; */
+  margin-top: 100px;
+  display: flex;
+  /* height: 1420px; */
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
+  /* align-content: stretch; */
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: white;
+  border-radius: 4px;
+  width: 740px;
+  height:
+  border: 1px solid grey;
+  margin-bottom: 8px;
+}

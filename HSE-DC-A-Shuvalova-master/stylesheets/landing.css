@@ -1,0 +1,100 @@
+.landing.bg {
+  background-image: url(../images/index_mockup.png);
+  background-size: 1440px 3200px;
+  background-position: center -10px;
+  background-repeat: no-repeat;
+  height: 3200px;
+}
+
+.landingWrapper {
+  padding-top: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.landingWrapper .mainSection h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.landingWrapper .mainSection p {
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.landingWrapper .mainSection h2 + p {
+  margin-top: 21px;
+}
+
+.landingWrapper .mainSection {
+  position: relative;
+  height: 780px;
+}
+
+.landingWrapper .mainSection .textWrapper {
+  position: absolute;
+  width: 580px;
+  /* top: 87px;
+  left: 160px; */
+}
+
+.landingWrapper .mainSection .pattern {
+  width: 210px;
+  height: 20px;
+  background-image: url(../images/landing/pattern.svg);
+
+}
+
+.landingWrapper .mainSection.left .textWrapper {
+  /* position: absolute; */
+  top: 87px;
+  left: 160px;
+}
+
+.landingWrapper .mainSection.left .pattern {
+  position: absolute;
+  margin-top: 235px;
+  margin-left: -60px;
+}
+
+.landingWrapper .mainSection.right .textWrapper {
+  /* position: absolute; */
+  top: 141px;
+  left: 710px;
+}
+
+.landingWrapper .mainSection.right .pattern {
+  position: absolute;
+  margin-top: 171px;
+  margin-left: 420px;
+}
+
+.landingWrapper .mainSection.left.second .textWrapper {
+  /* position: absolute; */
+  top: 134px;
+  left: 160px;
+}
+
+.landingWrapper .mainSection.left.second .pattern {
+  position: absolute;
+  margin-top: 159px;
+  margin-left: -60px;
+}
+
+.landingWrapper .mainSection.center .textWrapper {
+  text-align: center;
+  /* position: absolute; */
+  width: auto;
+  top: 184px;
+  left: 345px;
+}
+
+.landingWrapper .mainSection.center .textWrapper h2 {
+  font-size: 40px;
+  line-height:50px;
+}
+
+.landingWrapper .mainSection.center .textWrapper h2 + p {
+  margin-top: 29px;
+}
